@@ -9,7 +9,7 @@ html {
 }
 /* body */
 body {
-  background-color: rgb(213, 211, 211);
+  background-color: rgb(244, 239, 239);
 }
 /* navbar */
 nav {
@@ -64,6 +64,7 @@ nav ul li:hover {
 }
 .left-box {
   width: 900px;
+  height: auto;
   padding: 2rem;
   margin-left: 6rem;
 }
@@ -98,4 +99,7 @@ nav ul li:hover {
   border-radius: 15px;
   padding: 0.2rem;
   margin: 0.1rem;
+}
+.paragraph {
+  font-size: 17px;
 }

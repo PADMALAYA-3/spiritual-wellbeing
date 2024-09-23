@@ -1,0 +1,46 @@
+html {
+  box-sizing: border-box;
+}
+/* body */
+body {
+  background-color: rgb(213, 211, 211);
+}
+/* navbar */
+nav {
+  height: 50px;
+  font-family: sans-serif;
+  font-size: 17px;
+  font-weight: lighter;
+  padding: 2rem;
+  background-color: white;
+}
+nav ul {
+  list-style-type: none;
+  padding: 0;
+  margin: 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 2rem;
+}
+nav ul li:hover {
+  color: rgb(161, 47, 47);
+}
+.trm {
+  width: 240px;
+  height: 50px;
+}
+.download {
+  background-color: rgb(248, 125, 80);
+  color: white;
+  padding: 1.1rem;
+  border-radius: 10px;
+  text-align: right;
+  margin-left: auto;
+}
+.download:hover {
+  background-color: rgb(200, 80, 37);
+  color: white;
+}
+.image {
+}

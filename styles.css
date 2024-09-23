@@ -1,6 +1,12 @@
 html {
   box-sizing: border-box;
 }
+*,
+*::after,
+*::before {
+  margin: 0;
+  padding: 0;
+}
 /* body */
 body {
   background-color: rgb(213, 211, 211);
@@ -13,6 +19,14 @@ nav {
   font-weight: lighter;
   padding: 2rem;
   background-color: white;
+  display: flex;
+  justify-content: space-between;
+}
+.container1 {
+  width: 600px;
+}
+.container2 {
+  width: 500px;
 }
 nav ul {
   list-style-type: none;
@@ -35,12 +49,53 @@ nav ul li:hover {
   color: white;
   padding: 1.1rem;
   border-radius: 10px;
-  text-align: right;
-  margin-left: auto;
 }
 .download:hover {
   background-color: rgb(200, 80, 37);
   color: white;
 }
 .image {
+  width: 1300px;
+  height: auto;
+  border-radius: 20px;
+  margin-top: 0;
+  margin-left: 6rem;
+  margin-right: 2rem;
+}
+.left-box {
+  width: 900px;
+  padding: 2rem;
+  margin-left: 6rem;
+}
+.heading1 {
+  font-family: cursive;
+  margin-bottom: 1rem;
+}
+.heading2 {
+  margin-bottom: 1rem;
+  font-size: 17px;
+  /* display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  gap: 1rem; */
+}
+.heading2 ul {
+  list-style-type: disc;
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  gap: 1rem;
+}
+.button1 {
+  list-style-type: none;
+  background-color: rgb(221, 209, 192);
+  border-radius: 15px;
+  padding: 0.2rem;
+  margin: 0.1rem;
+}
+.button2 {
+  background-color: rgb(193, 202, 219);
+  border-radius: 15px;
+  padding: 0.2rem;
+  margin: 0.1rem;
 }

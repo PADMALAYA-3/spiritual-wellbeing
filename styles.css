@@ -15,20 +15,27 @@ body {
 nav {
   height: 50px;
   font-family: sans-serif;
-  font-size: 17px;
+  font-size: 15.5px;
   font-weight: lighter;
-  padding: 2rem;
+  padding: 2rem 3.8rem;
   background-color: white;
   display: flex;
   justify-content: space-between;
 }
-.container1 {
-  width: 600px;
+.logo-container {
+  width: 200px;
 }
-.container2 {
-  width: 500px;
+.logo {
+  width: 100%;
+  height: auto;
+}
+.container1 {
+  width: 504px;
+  display: flex;
+  justify-content: space-between;
 }
 nav ul {
+  color: #706a6a;
   list-style-type: none;
   padding: 0;
   margin: 0;
@@ -40,9 +47,9 @@ nav ul {
 nav ul li:hover {
   color: rgb(161, 47, 47);
 }
-.trm {
-  width: 240px;
-  height: 50px;
+.fa-magnifying-glass {
+  font-size: 31px;
+  color: black;
 }
 .download {
   background-color: rgb(248, 125, 80);
@@ -63,7 +70,7 @@ nav ul li:hover {
   margin-right: 2rem;
 }
 .left-box {
-  width: 900px;
+  width: 700px;
   height: auto;
   padding: 2rem;
   margin-left: 6rem;
@@ -75,10 +82,6 @@ nav ul li:hover {
 .heading2 {
   margin-bottom: 1rem;
   font-size: 17px;
-  /* display: flex;
-  justify-content: flex-start;
-  align-items: center;
-  gap: 1rem; */
 }
 .heading2 ul {
   list-style-type: disc;
@@ -102,4 +105,25 @@ nav ul li:hover {
 }
 .paragraph {
   font-size: 17px;
+}
+.main-body {
+  display: flex;
+  gap: 50px;
+}
+.right-box {
+  width: 550px;
+  padding: 2rem;
+  display: flex;
+  flex-direction: column;
+}
+.side-image-container {
+  width: 465px;
+  height: 315px;
+}
+.side-image {
+  width: 100%;
+  height: auto;
+}
+.unique {
+  margin-bottom: 3rem;
 }

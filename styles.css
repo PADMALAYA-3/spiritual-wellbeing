@@ -130,6 +130,7 @@ nav ul li:hover {
 /*footer section*/
 
 footer {
+  height: 358px;
   background-color: rgb(48, 47, 47);
   color: rgb(212, 210, 210);
   font-family: sans-serif;
@@ -137,8 +138,11 @@ footer {
   display: flex;
 }
 .footer-left-side {
-  width: 600px;
-  padding: 2rem 5rem;
+  flex-basis: 54%;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  padding: 1.3rem 3rem 0rem 9.4rem;
 }
 .think-right-container {
   width: 245px;
@@ -147,21 +151,26 @@ footer {
   width: 100%;
   height: auto;
 }
-footer p {
+.para1 {
   font-size: 20px;
   line-height: 33px;
+  margin-bottom: 2.2rem;
 }
 .footer-logo-container {
   width: 385px;
   display: flex;
   justify-content: space-between;
+  margin-bottom: 4rem;
 }
 .call-container {
   width: 111px;
-  /* display: flex; */
+  display: flex;
+  gap: 0.5rem;
 }
-.email-conatiner {
+.email-container {
+  display: flex;
   width: 100px;
+  gap: 0.5rem;
 }
 .fa-phone-volume {
   border-radius: 20px;
@@ -175,7 +184,7 @@ footer p {
   font-size: 12px;
 }
 .number {
-  font-size: 18px;
+  font-size: 17px;
 }
 footer ul {
   list-style-type: none;
@@ -189,45 +198,52 @@ footer ul {
   font-size: 12px;
 }
 .mail {
-  font-size: 18px;
+  font-size: 17px;
 }
 .footer-bottom-container ul {
   font-size: 14px;
-  height: 140px;
   display: flex;
-  justify-content: center;
   align-items: center;
   gap: 2rem;
-  margin-right: 180px;
 }
 .footer-right-side {
-  padding: 2rem 5rem;
+  padding: 0.8rem 5rem;
+  flex-basis: 46%;
+  display: flex;
+  flex-direction: column;
+  gap: 2rem;
 }
 h2 {
   font-family: sans-serif;
   font-size: 30px;
 }
-.the-app{
-  he
-}
-.footer-right-side-logo1-container {
-  height: 60px;
-  width: 200px;
+.footer-right-side-logo-container {
+  width: 100%;
   display: flex;
   gap: 2rem;
+}
+.app-store-image {
+  width: 100%;
+  height: auto;
 }
 .shortcuts {
   display: flex;
-  justify-content: center;
   align-items: center;
   gap: 2rem;
+  margin-bottom: 7rem;
 }
-.fa-square-facebook {
+.shades {
   border-radius: 20px;
-  padding: 0.6rem;
+  padding: 0.5rem;
   background-color: rgb(229, 194, 200);
 }
 .fa-brands {
   color: black;
   font-size: 18px;
+}
+.copyright-portion {
+  font-size: 14px;
+  display: flex;
+  align-items: center;
+  gap: 0.5rem;
 }

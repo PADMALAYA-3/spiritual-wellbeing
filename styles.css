@@ -52,7 +52,7 @@ nav ul li:hover {
   color: black;
 }
 .download {
-  background-color: rgb(248, 125, 80);
+  background-color: rgb(228, 118, 78);
   color: white;
   padding: 1.1rem;
   border-radius: 10px;
@@ -65,7 +65,6 @@ nav ul li:hover {
   width: 1300px;
   height: auto;
   border-radius: 20px;
-  margin-top: 0;
   margin-left: 6rem;
   margin-right: 2rem;
 }
@@ -98,13 +97,13 @@ nav ul li:hover {
   margin: 0.1rem;
 }
 .button2 {
-  background-color: rgb(193, 202, 219);
+  background-color: rgb(204, 209, 218);
   border-radius: 15px;
   padding: 0.2rem;
   margin: 0.1rem;
 }
 .paragraph {
-  font-size: 17px;
+  font-size: 17.5px;
 }
 .main-body {
   display: flex;
@@ -246,4 +245,77 @@ h2 {
   display: flex;
   align-items: center;
   gap: 0.5rem;
+}
+.container3 ul {
+  list-style-type: none;
+  width: 440px;
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+  gap: 2rem;
+  margin-bottom: 4rem;
+}
+.fa-square-facebook {
+  font-size: 30px;
+}
+.fa-twitter {
+  font-size: 30px;
+}
+.fa-linkedin {
+  font-size: 30px;
+}
+.fa-link {
+  font-size: 25px;
+}
+.heading3 {
+  font-family: cursive;
+  margin-bottom: 2rem;
+  font-size: 25px;
+}
+.heading4 {
+  font-family: cursive;
+  margin-bottom: 1.5rem;
+  font-size: 14px;
+}
+.heading5 {
+  width: 465px;
+  font-size: 17px;
+}
+.heading5 ul {
+  list-style-type: none;
+  display: flex;
+  flex-flow: row;
+  flex-wrap: wrap;
+  justify-content: flex-start;
+  align-items: center;
+  gap: 1rem;
+}
+.buttons {
+  background-color: rgb(204, 209, 218);
+  border-radius: 18px;
+  padding: 0.6rem;
+}
+.buttons:hover {
+  background-color: rgb(228, 118, 78);
+}
+.profile {
+  margin-bottom: 2rem;
+  display: flex;
+  align-items: center;
+  gap: 1rem;
+}
+.pro-logo {
+  width: 65px;
+  height: 65px;
+  margin-bottom: 1.5rem;
+}
+.logo-text {
+  font-family: sans-serif;
+  font-size: 20px;
+  font-weight: bold;
+}
+.heading6 {
+  font-family: cursive;
+  margin-bottom: 1.5rem;
+  font-size: 23px;
 }
